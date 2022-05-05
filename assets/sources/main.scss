@@ -1,0 +1,287 @@
+@import '../partials/variables';
+@import '../partials/mixins';
+@import '../partials/header';
+@import '../partials/breadcrumps';
+@import '../partials/intro';
+@import '../partials/history';
+@import '../partials/education';
+@import '../partials/benefits';
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+@media (max-width: 992px) {
+    .container {
+        max-width: 768px;
+    }
+    .header {
+        padding: 17px 15px;
+    }
+    .header__desc {
+        margin-right: 104px;
+    }
+    .header__btn {
+        padding-top: 27px;
+        padding-right: 79px
+    }
+    .btn__enter {
+        padding: 4px 37px;
+    }
+    .nav {
+        display: none;
+    }
+    .header__burger {
+        display: block;
+        width: 42px;
+        height: 28px;
+        margin-top: 34px;
+        transition: transform 1s;
+    }
+    .header__burger:hover {
+        transform: scale(1.25);
+    }
+    .breadcrumps {
+        padding: 40px 24px 0px;
+    }
+    .intro {
+        padding: 5px 18px 65px 12px;
+    }
+    .intro::before {
+        display: none;
+    }
+    .intro::after {
+        display: none;
+    }
+    .intro__content {
+        max-width: 482px;
+    }
+    .intro__content::before {
+        display: none;
+    }
+    .intro__content::after {
+        left: 515px;
+        top: 153px;
+        width: 410px;
+    }
+    .intro__title {
+        min-width: 738px;
+        padding-bottom: 24px;
+    }
+    .intro__subtitle {
+        padding-bottom: 15px;
+    }
+    .intro__text {
+        padding-left: 10px;
+    }
+    .intro__text--display {
+        display: block;
+    }
+    .history__title {
+        display: none;
+    }
+    .history__title--display {
+        display: block;
+        text-align: center;
+        padding-left: 54px;
+    }
+    .history__beginning {
+        padding: 6px 14px 11px 324px;;
+    }
+    .history__beginning::before {
+        width: 272px;
+        height: 278px;
+        left: 13px;
+        top: 2px;
+    }
+    .history__continue {
+        padding: 59px 310px 59px 14px;
+    }
+    .history__continue::after {
+        width: 293px;
+        height: 285px;
+        top: 76px;
+        right: -8px;
+    }
+    .education__title {
+        padding-top: 63px;
+        padding-bottom: 25px;
+    }
+    .education__title::after {
+        left: 450px;
+        top: 187px;
+    }
+    .education__subtitle {
+        padding-bottom: 80px;
+    }
+    .benefits {
+        padding: 0 99px 85px 99px;
+    }
+    .benefits__list {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .benefits__item {
+        min-width: 252px;
+        max-width: 252px;
+    }
+    .benefits__item--top {
+        margin-top: 61px;
+    }
+}
+@media (max-width: 767px) {
+    .container {
+        max-width: 360px;
+    }
+    .desc {
+        display: none;
+    }
+    .header__logo::after {
+        display: none;
+    }
+    .logo img {
+        width: 35.1px;
+        height: 17.74px;
+    }
+    .logo__name {
+        font-size: 18.5124px;
+        line-height: 22px;
+        padding-top: 7px;
+        padding-left: 44px;
+    }
+    .header__btn {
+        padding-right: 21px;
+        padding-left: 25px;
+        padding-top: 18px;
+    }
+    .header__burger {
+        margin-top: 22px;
+    }
+    .btn__enter {
+        padding: 4px 20px;
+    }
+    .btn__text {
+        font-size: 14px;
+        line-height: 28px;
+    }
+    .enter {
+        width: 13.2px;
+        height: 13.2px;
+    }
+    .btn__enter {
+        border-radius: 7px;
+        padding: 4px 19px;
+    }
+    .breadcrumps {
+        padding: 24px 17px 0px;
+    }
+    .intro {
+        padding-top: 39px;
+        padding-bottom: 87px;
+    }
+    .intro__title {
+        font-size: 26px;
+        line-height: 150%;
+        padding: 0 3px 24px 3px;
+        min-width: 202px;
+        max-width: 202px;
+    }
+    .intro__content::after {
+        width: 255px;
+        height: 255px;
+        left: 214px;
+        top: -49px;
+    }
+    .intro__text {
+        padding-left: 4px;
+        font-size: 18px;
+        line-height: 160%;
+        min-width: 333px;
+    }
+    .intro__text:not(:last-child) {
+        padding-bottom: 11px;
+    }
+    .intro__text--display {
+        display: block;
+    }
+    .history__title--display {
+        font-size: 24px;
+        line-height: 150%;
+        padding-bottom: 50px;
+    }
+    .history__content {
+        max-width: 330px;
+
+    }
+    .history__beginning {
+        padding: 308px 0 0 0;
+    }
+    .history__beginning::before {
+        left: 29px;
+        top: 7px;
+    }
+    .history__text {
+        font-size: 18px;
+    }
+    .history__continue {
+        padding: 341px 0 0 0;
+    }
+    .history__continue::after {
+        top: 41px;
+        right: 7px;
+    }
+    .education {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .education__title {
+        font-size: 24px;
+        line-height: 150%;
+        padding-top: 98px;
+        padding-bottom: 24px;
+        max-width: 300px;
+    }
+    .education__title::after {
+        width: 130px;
+        height: 5px;
+        left: 85px;
+        top: 205px;
+    }
+    .education__subtitle {
+        padding: 0 15px 50px 15px;
+        font-size: 18px;
+    }
+    .benefits {
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 69px;
+    }
+    .benefits__item {
+        align-items: center;
+        text-align: center;
+        min-width: 260px;
+        max-width: 260px;
+    }
+    .benefits__item:not(:last-child) {
+        padding-bottom: 43px;
+    }
+    .benefits__title {
+        font-size: 18px;
+    }
+    .benefits__item--top {
+        margin-top: 0;
+    }
+}

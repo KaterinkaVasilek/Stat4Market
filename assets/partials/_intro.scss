@@ -1,0 +1,112 @@
+.intro {
+    padding: 0 529px 75px 40px;
+    position: relative;
+    &__content {
+        max-width: 711px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+    &__title {
+        @include fontStyle();
+        font-size: 46px;
+        line-height: 65px;
+        padding-bottom: 40px;
+        transition: transform 1s;
+        &--color {
+            color: $mainColor;
+        }
+    }
+    &__subtitle {
+        display: flex;
+        max-width: 260px;
+        font-size: 20px;
+        line-height: 29px;
+        padding-bottom: 40px;
+        color: rgba(51, 26, 47, 0.8);
+        transition: transform 1s;
+    }
+}
+.intro__title:hover {
+    transform: scale(1.25);
+}
+.intro__subtitle:hover {
+    transform: scale(1.25);
+}
+.intro::before {
+    position: absolute;
+    z-index: 10;
+    content: '';
+    width: 782px;
+    height: 783px;
+    right: -855px;
+    top: 37px;
+    border-radius: 50%;
+    background: linear-gradient(264.3deg, rgba(124, 78, 171, 0.2) 0.87%, rgba(221, 81, 212, 0.2) 112.89%);
+}
+.intro::after {
+    position: absolute;
+    z-index: 70;
+    content: '';
+    width: 782px;
+    height: 783px;
+    right: -870px;
+    top: 37px;
+    border-radius: 50%;
+    background: $mainGradient;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.intro__content::before {
+    position: absolute;
+    z-index: 2;
+    content: '';
+    width: 508px;
+    top: 40px;
+    left: 743px;
+    height: 416px;
+    background-image: url(../images/Bg-stars.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.intro__content::after {
+    position: absolute;
+    z-index: 99;
+    content: '';
+    width: 435px;
+    top: -3px;
+    left: 765px;
+    height: 435px;
+    background-image: url(../images/Superman.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.money {
+    width: 48px;
+    height: 48px;
+    margin-right: 25px;
+}
+.intro__subtitle--text {
+    font-family: $fontLato;
+    font-weight: 400;
+}
+.intro__subtitle--color {
+    color: $mainColor;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 55px;
+    text-transform: uppercase;
+}
+.intro__text {
+    font-family: $fontLato;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    color: rgba(51, 26, 47, 0.8);
+    text-align: left;
+}
+.intro__text:not(:last-child) {
+    padding-bottom: 15px;
+}
+.intro__text--display {
+    display: none;
+}

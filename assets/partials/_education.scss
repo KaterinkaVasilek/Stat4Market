@@ -1,0 +1,35 @@
+.education {
+    margin: 0 auto;
+    &__title {
+        @include fontStyle();
+        text-align: center;
+        padding-top: 141px;
+        position: relative;
+        padding-bottom: 28px;
+        transition: transform 1s;
+        &--color {
+            color: $mainColor;
+        }
+    }
+    &__subtitle {
+        font-family: $fontLato;
+        text-align: center;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 160%;
+        padding-bottom: 87px;
+    }
+}
+.education__title:hover {
+    transform: scale(1.25);
+}
+.education__title::after {
+    content: '';
+    position: absolute;
+    left: 707px;
+    top: 267px;
+    width: 218px;
+    height: 6px;
+    background: $mainGradient;
+    border-radius: 2px;
+}

@@ -1,0 +1,7 @@
+@mixin fontStyle() {
+    font-family: $fontLato;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 64px;
+    color: $darkColor;
+}

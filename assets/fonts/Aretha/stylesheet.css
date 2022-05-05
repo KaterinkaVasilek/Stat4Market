@@ -1,0 +1,168 @@
+@font-face {
+    font-family: 'Aretha';
+    src: url('Aretha-Thin.eot');
+    src: local('Aretha Thin'), local('Aretha-Thin'),
+        url('Aretha-Thin.eot?#iefix') format('embedded-opentype'),
+        url('Aretha-Thin.woff2') format('woff2'),
+        url('Aretha-Thin.woff') format('woff'),
+        url('Aretha-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aretha Extra';
+    src: url('Aretha-ExtraBold.eot');
+    src: local('Aretha Extra Bold'), local('Aretha-ExtraBold'),
+        url('Aretha-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('Aretha-ExtraBold.woff2') format('woff2'),
+        url('Aretha-ExtraBold.woff') format('woff'),
+        url('Aretha-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aretha';
+    src: url('Aretha-MediumItalic.eot');
+    src: local('Aretha Medium Italic'), local('Aretha-MediumItalic'),
+        url('Aretha-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('Aretha-MediumItalic.woff2') format('woff2'),
+        url('Aretha-MediumItalic.woff') format('woff'),
+        url('Aretha-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Aretha';
+    src: url('Aretha-Bold.eot');
+    src: local('Aretha Bold'), local('Aretha-Bold'),
+        url('Aretha-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Aretha-Bold.woff2') format('woff2'),
+        url('Aretha-Bold.woff') format('woff'),
+        url('Aretha-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aretha';
+    src: url('Aretha-BlackItalic.eot');
+    src: local('Aretha Black Italic'), local('Aretha-BlackItalic'),
+        url('Aretha-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('Aretha-BlackItalic.woff2') format('woff2'),
+        url('Aretha-BlackItalic.woff') format('woff'),
+        url('Aretha-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Aretha';
+    src: url('Aretha-BoldItalic.eot');
+    src: local('Aretha Bold Italic'), local('Aretha-BoldItalic'),
+        url('Aretha-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('Aretha-BoldItalic.woff2') format('woff2'),
+        url('Aretha-BoldItalic.woff') format('woff'),
+        url('Aretha-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Aretha';
+    src: url('Aretha-ThinItalic.eot');
+    src: local('Aretha Thin Italic'), local('Aretha-ThinItalic'),
+        url('Aretha-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('Aretha-ThinItalic.woff2') format('woff2'),
+        url('Aretha-ThinItalic.woff') format('woff'),
+        url('Aretha-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Aretha';
+    src: url('Aretha-LightItalic.eot');
+    src: local('Aretha Light Italic'), local('Aretha-LightItalic'),
+        url('Aretha-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('Aretha-LightItalic.woff2') format('woff2'),
+        url('Aretha-LightItalic.woff') format('woff'),
+        url('Aretha-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Aretha';
+    src: url('Aretha-Black.eot');
+    src: local('Aretha Black'), local('Aretha-Black'),
+        url('Aretha-Black.eot?#iefix') format('embedded-opentype'),
+        url('Aretha-Black.woff2') format('woff2'),
+        url('Aretha-Black.woff') format('woff'),
+        url('Aretha-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aretha';
+    src: url('Aretha-Medium.eot');
+    src: local('Aretha Medium'), local('Aretha-Medium'),
+        url('Aretha-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Aretha-Medium.woff2') format('woff2'),
+        url('Aretha-Medium.woff') format('woff'),
+        url('Aretha-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aretha';
+    src: url('Aretha-Italic.eot');
+    src: local('Aretha Italic'), local('Aretha-Italic'),
+        url('Aretha-Italic.eot?#iefix') format('embedded-opentype'),
+        url('Aretha-Italic.woff2') format('woff2'),
+        url('Aretha-Italic.woff') format('woff'),
+        url('Aretha-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Aretha';
+    src: url('Aretha-Regular.eot');
+    src: local('Aretha'), local('Aretha-Regular'),
+        url('Aretha-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Aretha-Regular.woff2') format('woff2'),
+        url('Aretha-Regular.woff') format('woff'),
+        url('Aretha-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aretha Extra';
+    src: url('Aretha-ExtraBoldItalic.eot');
+    src: local('Aretha Extra Bold Italic'), local('Aretha-ExtraBoldItalic'),
+        url('Aretha-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('Aretha-ExtraBoldItalic.woff2') format('woff2'),
+        url('Aretha-ExtraBoldItalic.woff') format('woff'),
+        url('Aretha-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Aretha';
+    src: url('Aretha-Light.eot');
+    src: local('Aretha Light'), local('Aretha-Light'),
+        url('Aretha-Light.eot?#iefix') format('embedded-opentype'),
+        url('Aretha-Light.woff2') format('woff2'),
+        url('Aretha-Light.woff') format('woff'),
+        url('Aretha-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+

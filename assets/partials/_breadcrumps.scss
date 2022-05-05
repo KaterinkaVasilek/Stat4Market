@@ -1,0 +1,28 @@
+.breadcrumps {
+    padding: 60px 40px 13px;
+    &__list {
+        display: flex;
+        list-style: none;
+        text-decoration: none;
+    }
+    &__text {
+        font-family: $fontLato;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: rgba(51, 26, 47, 0.5);
+    }
+}
+.breadcrumps__list li {
+    position: relative;
+    margin-right: 26px;
+}
+.breadcrumps__list li:not(:last-child)::after {
+    display: block;
+    width:10px;
+    content: '';
+    position: absolute;
+    border-bottom: 1px solid rgba(51, 26, 47, 0.5);
+    left: 64px;
+    top: 11px;
+}
