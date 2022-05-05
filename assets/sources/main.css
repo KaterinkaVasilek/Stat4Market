@@ -49,7 +49,7 @@
   padding-left: 60px;
 }
 
-.logo__name--color {
+.logo__name-color {
   color: #CF51CE;
 }
 
@@ -151,7 +151,7 @@
   margin-top: 3px;
 }
 
-.nav__item--flex {
+.nav__item-flex {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -178,7 +178,7 @@
           align-items: center;
 }
 
-.btn__text {
+.enter-text {
   font-weight: 500;
   font-size: 18px;
   line-height: 35px;
@@ -259,7 +259,7 @@
   transition: transform 1s, -webkit-transform 1s;
 }
 
-.intro__title--color {
+.intro__title-color {
   color: #CF51CE;
 }
 
@@ -346,12 +346,12 @@
   margin-right: 25px;
 }
 
-.intro__subtitle--text {
+.intro__subtitle-text {
   font-family: "Lato", sans-serif;
   font-weight: 400;
 }
 
-.intro__subtitle--color {
+.intro__subtitle-color {
   color: #CF51CE;
   font-weight: 600;
   font-size: 38px;
@@ -372,7 +372,7 @@
   padding-bottom: 15px;
 }
 
-.intro__text--display {
+.intro__text-display {
   display: none;
 }
 
@@ -478,7 +478,7 @@
   transition: transform 1s, -webkit-transform 1s;
 }
 
-.education__title--color {
+.education__title-color {
   color: #CF51CE;
 }
 
@@ -558,7 +558,7 @@
   color: rgba(51, 26, 47, 0.8);
 }
 
-.benefits__item--background {
+.benefits__item-background {
   width: 60px;
   height: 60px;
   background-color: #CF51CE;
@@ -566,7 +566,7 @@
   position: relative;
 }
 
-.benefits__item--bottom {
+.benefits__item-bottom {
   margin-bottom: 20px;
 }
 
@@ -676,7 +676,7 @@
   .intro__text {
     padding-left: 10px;
   }
-  .intro__text--display {
+  .intro__text-display {
     display: block;
   }
   .history__title {
@@ -766,7 +766,7 @@
   .btn__enter {
     padding: 4px 20px;
   }
-  .btn__text {
+  .enter-text {
     font-size: 14px;
     line-height: 28px;
   }

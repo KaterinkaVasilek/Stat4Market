@@ -13,7 +13,7 @@
         line-height: 65px;
         padding-bottom: 40px;
         transition: transform 1s;
-        &--color {
+        &-color {
             color: $mainColor;
         }
     }
@@ -85,11 +85,11 @@
     height: 48px;
     margin-right: 25px;
 }
-.intro__subtitle--text {
+.intro__subtitle-text {
     font-family: $fontLato;
     font-weight: 400;
 }
-.intro__subtitle--color {
+.intro__subtitle-color {
     color: $mainColor;
     font-weight: 600;
     font-size: 38px;
@@ -107,6 +107,6 @@
 .intro__text:not(:last-child) {
     padding-bottom: 15px;
 }
-.intro__text--display {
+.intro__text-display {
     display: none;
 }
