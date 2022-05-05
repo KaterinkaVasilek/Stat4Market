@@ -1,6 +1,8 @@
 .intro {
-    padding: 0 529px 75px 40px;
+    padding: 0 0 70px 40px;
     position: relative;
+    display: flex;
+    justify-content: space-between;
     &__content {
         max-width: 711px;
         display: flex;
@@ -25,6 +27,9 @@
         padding-bottom: 40px;
         color: rgba(51, 26, 47, 0.8);
         transition: transform 1s;
+    }
+    &__picture {
+        padding-right: 39px;
     }
 }
 .intro__title:hover {
@@ -65,18 +70,6 @@
     left: 743px;
     height: 416px;
     background-image: url(../images/Bg-stars.webp);
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-.intro__content::after {
-    position: absolute;
-    z-index: 99;
-    content: '';
-    width: 435px;
-    top: -3px;
-    left: 765px;
-    height: 435px;
-    background-image: url(../images/Superman.webp);
     background-repeat: no-repeat;
     background-size: contain;
 }
